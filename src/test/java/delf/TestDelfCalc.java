@@ -16,14 +16,14 @@ public class TestDelfCalc {
 	@Test
 	public void testSub() {
 		DelfCalc c = new DelfCalc();
-		c.sub(1, 2);
-		assertEquals(-1, c.getResult());
+		c.sub(10, 5);
+		assertEquals(5, c.getResult());
 	}
-	
-	@Test
-	public void testMul() {
-		DelfCalc c = new DelfCalc();
-		c.mul(1, 2);
-		assertEquals(2, c.getResult());
-	}
+//	
+//	@Test
+//	public void testMul() {
+//		DelfCalc c = new DelfCalc();
+//		c.mul(1, 2);
+//		assertEquals(2, c.getResult());
+//	}
 }
