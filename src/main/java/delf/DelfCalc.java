@@ -11,6 +11,11 @@ public class DelfCalc {
 		result = a - b;
 	}
 	
+	public void mul(int a, int b) {
+		result = a * b;
+	}
+	
+	
 	public int getResult() {
 		return result;
 	}
