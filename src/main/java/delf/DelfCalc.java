@@ -7,6 +7,10 @@ public class DelfCalc {
 		result = a + b;
 	}
 	
+	public void sub(int a, int b) {
+		result = a - b;
+	}
+	
 	public int getResult() {
 		return result;
 	}
